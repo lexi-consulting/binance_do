@@ -16,5 +16,4 @@ def main(args):
     result = []
     for PAIR in PAIRS:
         result.append(read_symbol(PAIR))
-    return result
-  
+    return json.dumps(result)
