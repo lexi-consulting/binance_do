@@ -1,3 +1,2 @@
 pandas
-urllib
-json
+urllib3
