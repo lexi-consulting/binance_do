@@ -1,0 +1,17 @@
+environment: {}
+parameters: {}
+packages:
+  - name: binance
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: get-market-data
+        binary: false
+        main: ''
+        runtime: 'python:default'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
